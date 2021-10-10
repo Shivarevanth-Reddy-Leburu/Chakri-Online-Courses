@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="h.css" rel="stylesheet">
+    <title>G7 CR Technologies Learning</title>
+  </head>
+  <body>
+
+    <!-- Navbar-1-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+              <li class="nav-item me-2">
+                <a class="navbar-brand" href="Index.html">G7 CR Technologies<br>Learning</a>
+              </li>
+
+              <!--Multi-Level Dropdown-->
+
+              <li class="nav-item dropdown" id="myDropdown">
+                <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown">Explore</a>
+                <ul class="dropdown-menu">
+                  <li> <a class="dropdown-item text-muted bo" href="#">My organisation</a></li>
+                  <li> <a class="dropdown-item" href="#">Learning Paths</a></li>
+                  <li> <a class="dropdown-item" href="#">Categories</a></li>
+                  <li> <a class="dropdown-item text-muted bo" href="#">All Categories</a></li>
+                  <li> <a class="dropdown-item" href="#"> Cloud Computing &raquo; </a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Cloud Certification</a></li>
+                      <li><a class="dropdown-item" href="#">Cloud Development</a></li>
+                      <li><a class="dropdown-item" href="#">Cloud Fundamental &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item bo text-muted" href="#">Popular topics</a></li>
+                          <li><a class="dropdown-item" href="#">Microsoft Azure</a></li>
+                          <li><a class="dropdown-item" href="#">Amazon AWS</a></li>
+                          <li><a class="dropdown-item" href="#">Google Cloud</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Continuing Education Units</a></li>
+                      <li><a class="dropdown-item" href="#">Data Science</a></li>
+                      <li><a class="dropdown-item" href="#">Design</a></li>
+                      <li><a class="dropdown-item" href="#">Development</a></li>
+                      <li><a class="dropdown-item" href="#">Finance &amp; Accounting</a></li>
+                      <li><a class="dropdown-item" href="#">IT Operations</a></li>
+                      <li><a class="dropdown-item" href="#">Leadership &amp; Management</a></li>
+                      <li><a class="dropdown-item" href="#">Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Office Productivity</a></li>
+                      <li><a class="dropdown-item" href="#">Personal Development</a></li>
+                      <li><a class="dropdown-item" href="#">Project Management &amp; Operations</a></li>
+                      <li><a class="dropdown-item" href="#">Sales</a></li>
+                      <li><a class="dropdown-item" href="#">Workplace & Human Resources</a>
+                    </li>
+                </ul>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Learning Path</a>
+              </li>
+
+              <!--Search Field-->
+
+              <div class="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+                <input class="form-control form-control-md sea" type="search" placeholder="Search for anything" aria-label="Search">
+              </div>
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Teach</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">My Learning</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Navbar-2-->
+
+    <nav class="navbar navbar-expand-lg shadow">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cloud Computing</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Data Science</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Development</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">IT Operations</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Leadership &amp; Management</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Marketing</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Personal Development</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Project Management &amp; Operations</a>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Let's start learning, Shivarevanth</h1>
+
+    <h5 class="learn text-muted"><emp>Courses</emp> &nbsp; &nbsp; &nbsp; &nbsp;Learning paths</h5>
+
+    <!--Ongoing Course-->
+
+    <div class="contain">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="cards">
+                    <div class="card-body">
+                        <img src="img4.jpg">
+                    </div>
+                    <div class="card-title" id="title">
+                        <h6><a onclick="fnCourseDetails(4)" href="#">Learn DevOps: Infrastructure Automation</a></h6>
+                        <p>Edward Viaene</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Customize Section-->
+
+    <div class="contai">
+        <div class="row">
+            <div class="col-lg-10">
+                <h3>Customize your course recommendations</h3>
+                <h6>Explore our curated skillsets and find the right course for you to enroll</h6>
+            </div>
+            <div class="col-lg-2 text-muted">
+                <h6 id="see">Get-Started</h6>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="next">What to learn next</h2>
+
+    <!--List of Courses-->
+
+    <div class="container">
+        <div class="row">
+            <h2>Web Development</h2>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img1.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(1)" href="#">The Complete Web Development bootcamp</a></h5>
+                        <p>Dr.Angela Yu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img2.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(2)" href="#">The Web Developer Roadmap</a></h5>
+                        <p>Dr.Colt Steele</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img3.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(3)" href="#">The Python Web Development Course:Zero to Mastery</a></h5>
+                        <p>Dr.Andrei Neagoie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Infrastructure</h2>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img4.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(4)" href="#">Learn DevOps: Infrastructure Automation:Zero to Mastery</a></h5>
+                        <p>Edward Viaene</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img5.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(5)" href="#">DevOps Infrastructure Automation: Zero to Expert</a></h5>
+                        <p>Icaro Lavrador</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img6.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(6)" href="#">Infrastructure as code for freshers</a></h5>
+                        <p>Robin Beck</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Cloud Computing</h2>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img7.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(7)" href="#">Cloud Computing Tutorial for beginners: IaaS</a></h5>
+                        <p>Neal Davis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img8.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(8)" href="#">Google Cloud Platform Course: Zero to Mastery</a></h5>
+                        <p>Idan Gabrieli</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img9.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(9)" href="#">Salesforce Tutorial for Beginners</a></h5>
+                        <p>Chris Parent</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Networking</h2>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img10.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(10)" href="#">The Complete Networking Fundamental Course</a></h5>
+                        <p>David Bombal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img11.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(11)" href="#">Introduction to Computer Network for Non-Techies</a></h5>
+                        <p>Alton Hardin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img12.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(12)" href="#">Digital Marketing Full Course</a></h5>
+                        <p>Nathan House</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Security</h2>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img13.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(13)" href="#">Cyber Security Full Course</a></h5>
+                        <p>Scott Duffy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img14.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(14)" href="#">The Ethical Hacking Course</a></h5>
+                        <p>Nathan House</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img15.jpg">
+                    </div>
+                    <div class="card-title">
+                        <h5><a onclick="fnCourseDetails(15)" href="#">Application Security: Zero to Master</a></h5>
+                        <p>Easy Bytes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+
+    <section class="footer">
+        <div class="containers">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul>
+                        <p><a href="#">Get the app</a></p>
+                        <p><a href="#">About us</a></p>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <p><a href="#">Help and Support</a></p>
+                        <p><a href="#">Terms</a></p>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <p><a href="#">Privacy policy</a></p>
+                        <p><a href="#">Sitemap</a></p>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul>
+                        <p class="beauty"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe glo" viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                          </svg><a href="#">English</a></p>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10">
+                    <img id="image" src="img16.svg">
+                </div>
+                <div class="col-lg-2">
+                    <p class="copy">&copy; 2021 Udemy, Inc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="w.js"></script>
+    <script src="test.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -1,0 +1,466 @@
+.navbar {
+    padding-top: 15px;
+    margin: 0px;
+    color: black;
+    padding-bottom: 0px;
+}
+
+.container-fluid ul li a {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navbar-navs a{
+    padding-left: 3px;
+    display: inline-flex;
+}
+
+h1 {
+    margin: 20px;
+    padding: 10px 5px;
+}
+
+.card-body {
+    height: 150px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.plays {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.containers {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+.col-lg-3 ul p a , .col-lg-2 ul p a{
+    color: white;
+    text-decoration-style: solid;
+}
+
+emp{
+    border-bottom: none;
+}
+
+.learn {
+    border-bottom: black solid 1px;
+}
+
+.col-lg-5 {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#image{
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 70px;
+    height: auto;
+}
+
+strong{
+    color: white;
+}
+
+.copy {
+    padding-top: 90px;
+}
+
+a {
+    text-decoration: solid;
+    font-style: normal;
+    color: black;
+}
+
+.beauty {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.icon {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.sea {
+    border-radius: 25px;
+    width: 600px;
+    height: 40px;
+    padding-left: 33px;
+}
+.tag {
+    position: relative;
+    
+}
+
+.containerss {
+    background-color: black;
+    padding: 30px;
+}
+
+.container-fluidss {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#big {
+    font-weight: bold;
+}
+
+.learn {
+    padding-left: 40px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+emp {
+    color: black;
+}
+
+.cards {
+    display: flex;
+    border: 1px black solid;
+}
+
+.card-bodys {
+    background-image: url(org.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+#title {
+    padding: 10px;
+}
+
+#next {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#indent{
+    padding: 20px;
+}
+
+#headings , #author , #description {
+    color: white;
+}
+
+#duration {
+    color: black;
+    padding-top: 3px;
+}
+
+#wite {
+    color: white;
+}
+
+#author {
+    color: violet;
+    text-decoration: underline;
+}
+
+#star {
+    color: greenyellow;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+#num {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: violet;
+    text-decoration: underline;
+}
+
+#stud {
+    color: white;
+    padding-left: 10px;
+}
+
+.sta {
+    display: flex;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.half {
+    color: greenyellow;
+    padding-left: 10px;
+
+}
+
+.middle {
+    height: 600px;
+    background-color: white;
+    padding:20px;
+}
+
+#info {
+    padding-top: 20px;
+    padding-left: 30px;
+    border: 2px solid black;
+}
+
+#wite {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#hr {
+    padding-left: 10px;
+}
+
+.icons {
+    display: flex;
+    color: white;
+}
+
+.c1 , .c2 , .c3 {
+    display: flex;
+    padding: 10px;
+}
+
+.svs {
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.d1 , .d2 {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.strong{
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.ic {
+    padding-top: 10px;
+}
+
+.e1 {
+    display: flex;
+}
+
+.pl {
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 6px;
+}
+
+.bton {
+    display: flex;
+}
+
+.bot {
+    background-color: black;
+    color: white;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: white solid 1px;
+}
+
+#white {
+    color: white;
+}
+
+.bor {
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: white solid 1px;
+}
+
+iframe {
+    width: 100%;
+    height: 280px;
+}
+
+.modal-body {
+    height: 300px;
+}
+
+.bo {
+    font-weight: bold;
+}
+
+h1 , #next{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contai {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+#see {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.card-bodies {
+    position: relative;
+}
+
+.wat {
+    position: absolute;
+    top: 70px;
+    left: 2px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.glo {
+    padding-right: 10px;
+}
+
+.conta {
+    padding: 20px;
+}
+
+#clip , #cli , #cl {
+    color: violet;
+    text-decoration: underline;
+}
+
+#time {
+    padding-left: 40px;
+}
+
+#tim {
+    padding-left: 60px;
+}
+
+#ti {
+    padding-left: 41px;
+}
+
+#clip , #cli , #cl {
+    padding: 20px;
+}
+
+#c {
+    padding-top: 10px;
+}
+
+.line {
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid;
+}
+
+#s {
+    padding-left: 40px;
+}
+
+#p {
+    padding-left: 100px;
+}
+
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li
+{
+    height: 30px;
+    background: #999999;
+}
+.third-level-menu > li:hover { background: #CCCCCC; }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+    background: #999999;
+}
+.top-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+

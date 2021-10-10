@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="h.css" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Navbar-1-->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item me-2">
+              <a class="navbar-brand" href="Index.html">G7 CR Technologies<br>Learning</a>
+            </li>
+
+            <!--Multi-Level Dropdown-->
+
+            <li class="nav-item dropdown" id="myDropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Explore</a>
+              <ul class="dropdown-menu">
+                <li> <a class="dropdown-item" href="#">My organisation</a></li>
+                <li> <a class="dropdown-item" href="#">Learning Paths</a></li>
+                <li> <a class="dropdown-item" href="#">Categories</a></li>
+                <li> <a class="dropdown-item" href="#">All Categories</a></li>
+                <li> <a class="dropdown-item" href="#"> Cloud Computing &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Cloud Certification</a></li>
+                    <li><a class="dropdown-item" href="#">Cloud Development</a></li>
+                    <li><a class="dropdown-item" href="#">Cloud Fundamental &raquo; </a>
+                      <ul class="submenu dropdown-menu">
+                        <li><a class="dropdown-item text-muted" href="#">Popular topics</a></li>
+                        <li><a class="dropdown-item" href="#">Microsoft Azure</a></li>
+                        <li><a class="dropdown-item" href="#">Amazon AWS</a></li>
+                        <li><a class="dropdown-item" href="#">Google Cloud</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Continuing Education Units</a></li>
+                    <li><a class="dropdown-item" href="#">Data Science</a></li>
+                    <li><a class="dropdown-item" href="#">Design</a></li>
+                    <li><a class="dropdown-item" href="#">Development</a></li>
+                    <li><a class="dropdown-item" href="#">Finance &amp; Accounting</a></li>
+                    <li><a class="dropdown-item" href="#">IT Operations</a></li>
+                    <li><a class="dropdown-item" href="#">Leadership &amp; Management</a></li>
+                    <li><a class="dropdown-item" href="#">Marketing</a></li>
+                    <li><a class="dropdown-item" href="#">Office Productivity</a></li>
+                    <li><a class="dropdown-item" href="#">Personal Development</a></li>
+                    <li><a class="dropdown-item" href="#">Project Management &amp; Operations</a></li>
+                    <li><a class="dropdown-item" href="#">Sales</a></li>
+                    <li><a class="dropdown-item" href="#">Workplace & Human Resources</a>
+                  </li>
+              </ul>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Learning Path</a>
+            </li>
+
+            <!--Search Field-->
+
+            <div class="tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              <input class="form-control form-control-md sea" type="search" placeholder="Search for anything" aria-label="Search">
+            </div>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Teach</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">My Learning</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
+
+    <section class="footer">
+        <div class="containerss">
+            <div class="row">
+                <div class="col-lg-8">
+                  <h2 id="headings"></h2>
+                  <h5 id="description"></h5>
+                  <br>
+                  <div class="sta">
+                    <p id="star"></p>
+                    <div class="half">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                      </svg>
+                    </div>
+                    <p><a id="num" href="#"></a></p>
+                    <p id="stud"></p>
+                  </div>
+                  <p id="wite">Created by&nbsp;:-&nbsp;<a id="author" href="#"></a></p>
+                  <div class="icons">
+                    <div class="c1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-exclamation-octagon svs" viewBox="0 0 16 16">
+                        <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+                        <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                      </svg>
+                      <p id="up"></p>
+                    </div>
+                    <div class="c2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe svs" viewBox="0 0 16 16">
+                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                      </svg>
+                      <p id="eng">English</p>
+                    </div>
+                    <div class="c3">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-badge-cc svs" viewBox="0 0 16 16">
+                        <path d="M3.708 7.755c0-1.111.488-1.753 1.319-1.753.681 0 1.138.47 1.186 1.107H7.36V7c-.052-1.186-1.024-2-2.342-2C3.414 5 2.5 6.05 2.5 7.751v.747c0 1.7.905 2.73 2.518 2.73 1.314 0 2.285-.792 2.342-1.939v-.114H6.213c-.048.615-.496 1.05-1.186 1.05-.84 0-1.319-.62-1.319-1.727v-.743zm6.14 0c0-1.111.488-1.753 1.318-1.753.682 0 1.139.47 1.187 1.107H13.5V7c-.053-1.186-1.024-2-2.342-2C9.554 5 8.64 6.05 8.64 7.751v.747c0 1.7.905 2.73 2.518 2.73 1.314 0 2.285-.792 2.342-1.939v-.114h-1.147c-.048.615-.497 1.05-1.187 1.05-.839 0-1.318-.62-1.318-1.727v-.743z"/>
+                        <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                      </svg>
+                      <p id="lang"></p>
+                    </div>
+                  </div>
+                  <div class="bton">
+                    <p class="bot"><a id="white" href="#">Share</a></p>
+                    <p class="bor"><a id="white" href="#">Download</a></p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-bodies">
+                          <svg xmlns="http://www.w3.org/2000/svg" data-bs-toggle="modal" data-bs-target="#exampleModal" width=50" height="50" fill="currentColor" class="bi bi-play-circle-fill wat" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                          </svg>
+                          <img id="img">
+                        </div>
+                        <div class="card-title">
+                          <h5>This course includes:</h5>
+                          <div class="e1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-right-square-fill pl" viewBox="0 0 16 16">
+                              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
+                            </svg>
+                            <p id="duration"></p>
+                          </div>
+                          <div class="d1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-phone ic" viewBox="0 0 16 16">
+                              <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                              <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>
+                            <p class="strong">Access on mobile</p>
+                          </div>
+                          <div class="d2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trophy ic" viewBox="0 0 16 16">
+                              <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+                            </svg>
+                            <p class="strong"><emp>Certificate of Completion</emp></p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="above">
+      <div class="conta">
+        <h2>Course Orientation</h2>
+        <div id="ro" class="row">
+          <div class="col-lg-4">
+            <div id="inf" class="card">
+              <div class="part">
+                <div class="line">
+                  <p id="s">Topics</p>
+                  <p id="p">Time</p>
+                </div>
+                <p id="c"><a id="clip" data-bs-toggle="modal" data-bs-target="#intro" href="#">Introduction</a><a id="time"></a></p>
+                <hr><p><a id="cli" data-bs-toggle="modal" data-bs-target="#learn" href="#">Learning</a> <a id="tim"></a></p>
+                <hr><p><a id="cl" data-bs-toggle="modal" data-bs-target="#conc" href="#">Conclusion</a> <a id="ti"></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="middle">
+      <div class="con">
+        <div class="row">
+          <div class="col-lg-6">
+            <div id="info" class="card">
+              <h2>What you'll learn</h2>
+              <p>An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass surveillance.<br><br>
+                Start a career in cyber security. Become a cyber security specialist.<br><br>
+                The very latest up-to-date information and methods.<br><br>
+                We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.<br><br>
+                Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.<br><br>
+                You will master encryption in an easy to follow crash course.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="containers">
+          <div class="row">
+              <div class="col-lg-3">
+                  <ul>
+                      <p><a href="#">Get the app</a></p>
+                      <p><a href="#">About us</a></p>
+                  </ul>
+              </div>
+              <div class="col-lg-3">
+                  <ul>
+                      <p><a href="#">Help and Support</a></p>
+                      <p><a href="#">Terms</a></p>
+                  </ul>
+              </div>
+              <div class="col-lg-3">
+                  <ul>
+                      <p><a href="#">Privacy policy</a></p>
+                      <p><a href="#">Sitemap</a></p>
+                  </ul>
+              </div>
+              <div class="col-lg-2">
+                  <ul>
+                    <p class="beauty"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe glo" viewBox="0 0 16 16">
+                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                      </svg><a href="#">English</a></p>
+                  </ul>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-10">
+                  <img id="image" src="img16.svg">
+              </div>
+              <div class="col-lg-2">
+                  <p class="copy">&copy; 2021 Udemy, Inc.</p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe id="video"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="intro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe id="vide"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="learn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe id="vid"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="conc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe id="vi"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="w.js"></script>
+    <script src="sub.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </body>
+</html>
